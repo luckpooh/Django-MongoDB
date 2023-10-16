@@ -21,7 +21,7 @@ class InsertLogIntoDatabase(Thread):
 
         if self.DRF_ACTIVITY_TRACKER_QUEUE_MAX_SIZE < 1:
             raise Exception("""
-            DRF ACTIVITY TRACKER EXCEPTION
+              DRF ACTIVITY TRACKER EXCEPTION
             Value of DRF_ACTIVITY_TRACKER_QUEUE_MAX_SIZE must be greater than 0
             """)
 
